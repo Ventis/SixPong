@@ -1,14 +1,14 @@
 #pragma strict
 
-var cSpeed:float = 10.0;
-var sFactor:float = 10.0;
+var cSpeed:float = 20.0;
+var sFactor:float = 20.0;
 
 //scores
 var playerScore:int = 0;
 var enemyScore:int = 0;
 
 function Start () {
-	rigidbody.AddForce(Vector3(0,1,10));
+	rigidbody.AddForce(Vector3(0,1,20));
 }
 
 function Update () {
@@ -17,7 +17,7 @@ function Update () {
 	rigidbody.velocity = Vector3.Lerp(cvel, tvel, Time.deltaTime * sFactor);
 	
 		
-	if(transform.position.z < -5)
+	if(transform.position.z < -50)
 	{
 		enemyScore++;
 		transform.position.x = 0;

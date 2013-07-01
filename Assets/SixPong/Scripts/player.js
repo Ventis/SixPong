@@ -1,12 +1,12 @@
 #pragma strict
 
-var speed:int = 1;
+var speed:int = 100;
 
-var playingFieldWidth:int = 10;
-var playingFieldHeight:int = 10;
+var playingFieldWidth:int = 100;
+var playingFieldHeight:int = 100;
 
-var playerWidth:int = 2;
-var playerHeight:int = 2;
+var playerWidth:int = 20;
+var playerHeight:int = 20;
 
 function Update () 
 {
@@ -16,8 +16,7 @@ function Update ()
 	
 	upDownMovement *= speed;
 	leftRightMovement *= speed;
-	
-	
+		
 	transform.Translate(Vector3(leftRightMovement,upDownMovement,0)*Time.deltaTime);
 
 	//check bounds
