@@ -1,9 +1,9 @@
 #pragma strict
 
-var pScore:GUIText;
+var pScore:String;
 
 function OnGUI()
 {
-	pScore.text = Ball.playerScore;
-
+	pScore = Ball.playerScore.ToString();
+	GUI.Label(Rect (270,0,50,20), pScore);
 }

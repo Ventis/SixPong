@@ -1,10 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SixPong\Scripts\GameGUI.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SixPong\Scripts\Ball.js">
     <Files>
-      <File FileName="Assets\SixPong\Scripts\GameGUI.js" Line="7" Column="32" />
-      <File FileName="Assets\SixPong\Scripts\Ball.js" Line="22" Column="11" />
+      <File FileName="Assets\SixPong\Scripts\GameGUI.js" Line="3" Column="18" />
       <File FileName="Assets\SixPong\Scripts\Player.js" Line="3" Column="20" />
+      <File FileName="Assets\SixPong\Scripts\Ball.js" Line="11" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
