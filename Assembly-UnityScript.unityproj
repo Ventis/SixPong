@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\SixPong\Scripts\Ball.js" />
+     <Compile Include="Assets\SixPong\Scripts\GameGUI.js" />
      <Compile Include="Assets\SixPong\Scripts\Player.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\CameraRelativeControl.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FirstPersonControl.js" />

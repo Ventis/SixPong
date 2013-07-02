@@ -19,7 +19,7 @@ function Update () {
 		
 	if(transform.position.z < -50)
 	{
-		enemyScore++;
+		playerScore++;
 		transform.position.x = 0;
 		transform.position.y = 0;
 		transform.position.z = 0;
